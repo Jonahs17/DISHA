@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="first">
+            <h2 class="title">DISHA</h2>
+            <h3 class="year">2023</h3>
+            <section>
+                <h2 class="inner_title">
+                    DISHA
+                </h2>
+                <h3 class="inner_year">2023</h3>
+            </section>
+        </div>
+    
+    
+
+    <div class="second">
+        <h1>
+            leaderboard
+        </h1>
+    </div>
+
+    <div class="thr"></div>
+    
+    <script>
+        let section = document.querySelector('section');
+        
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+            section.style.clipPath = "circle(" + value * 2.25 + "px at left center)";
+
+            
+        });
+    </script>
+</body>
+</html>

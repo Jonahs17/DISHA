@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'singly';
+    src: 
+         url('./browood/Browood-Regular.ttf') format('woff');
+    /* Add more formats if necessary */
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+section.one{
+    height: 200vh;
+}
+
+div.first{
+    height: 200vh;
+    background-color: #222;
+    z-index:-1
+
+}
+
+section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./gray-abstract-wireframe-technology-background.jpg);
+    background-size: contain;
+    display: flex;
+    
+    clip-path: circle(200px at left center);
+    z-index: 2;
+}
+
+.title{
+    position: fixed;
+    top:35%;
+    font-family: 'singly';
+    font-weight: 100;
+    transform: translateY(-50%);
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    z-index: 1;
+    font-size: 25vw;
+
+}
+
+.inner_title{
+    position: fixed;
+    top:35%;
+    font-family: 'singly';
+    font-weight: 100;
+
+    transform: translateY(-50%);
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    z-index: 1;
+    font-size: 25vw;
+    background-image: url(./9558991_12754.jpg);
+    background-attachment:fixed ;
+    background-size:cover;
+    background-repeat: repeat;
+
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 5px #000; /* Width and color of the border for WebKit browsers (Chrome, Safari) */
+     text-stroke: 5px #000; /* Width and color of the border for other browsers */
+
+
+
+}
+
+.year{
+    position: fixed;
+    top:70%;
+    left:8%;
+    transform: translateY(-50%);
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    z-index: 1;
+    font-size: 10vw;
+    letter-spacing: 10vw;
+}
+
+.inner_year{
+    position: fixed;
+    top:70%;
+    left:8%;
+    transform: translateY(-50%);
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    z-index: 1;
+    font-size: 10vw;
+    letter-spacing: 10vw;
+    background-image: url(./9558991_12754.jpg);
+    background-attachment:fixed ;
+    background-size:cover;
+    background-repeat: repeat;
+
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.second{
+    height: 100vh;
+    background-color: #f7f7f9;
+}
+
+
+
+
+
+
+
